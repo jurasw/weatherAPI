@@ -22,6 +22,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #e7e9f0;
+    font-family: "Open Sans", "Arial", snas-serif;
 }
 ul {
     list-style: none;
@@ -70,6 +71,10 @@ button {
    }
 }
 
+*:focus {
+    outline: none;
+  }
+
 .input-group {
     display: block;
     width: 441px;
@@ -99,7 +104,7 @@ button {
     background-color: rgba(255, 255, 255, 0);
     top: 0;
     height: 65px;
-    width: 100%;
+    width: 75%;
     padding: 0 53px;
     box-sizing: border-box;
     z-index: 3;
@@ -114,7 +119,7 @@ button {
     box-shadow: none;
     box-sizing: border-box;
     font-weight: 700;
-    z-index: 3;
+    z-index: 99;
     display: block;
     color: #1a6fc4;
     font-size: 17px;
@@ -123,7 +128,8 @@ button {
     margin-left: 80%;
     padding-top: 8.5%;
   }
-  
+  .button:hover { cursor: pointer;}
+
   .input-group input::placeholder {
     color: rgba(0, 0, 0, 0);
   }
@@ -147,6 +153,7 @@ button {
     box-sizing: border-box;
     transition: all 0.1s ease-in-out;
     cursor: text;
+    width: 80%;
   }
   
   .input-group input:focus + label,

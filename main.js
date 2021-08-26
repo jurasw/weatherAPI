@@ -33,7 +33,7 @@ function main() {
             container.appendChild(img);
             console.log(data.main.temp)
             tempCelc.innerHTML = (data.main.temp).toFixed(1) + " \u00B0C"
-            tempDescription.innerHTML = data.weather[0].description + " wilgotność: " + data.main.humidity + "%"
+            tempDescription.innerHTML = data.weather[0].description + " | humidity: " + data.main.humidity + "%"
             place.innerHTML = city
             let offset = data.timezone / 3600
             setInterval(getLocalTime, 1000)
