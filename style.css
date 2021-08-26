@@ -109,6 +109,20 @@ button {
     font-family: "Oxygen", sans-serif;
     transition: top 0.1s ease-in-out;
   }
+
+  .button {
+    box-shadow: none;
+    box-sizing: border-box;
+    font-weight: 700;
+    z-index: 3;
+    display: block;
+    color: #1a6fc4;
+    font-size: 17px;
+    font-family: "Oxygen", sans-serif;
+    transition: top 0.1s ease-in-out;
+    margin-left: 80%;
+    padding-top: 8.5%;
+  }
   
   .input-group input::placeholder {
     color: rgba(0, 0, 0, 0);
