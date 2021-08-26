@@ -1,4 +1,4 @@
 # weatherAPI
 
 
-https://rydz99.github.io/weatherAPI/
+https://jurasw.github.io/weatherAPI/
